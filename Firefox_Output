@@ -1,6 +1,6 @@
 Processing Firefox.jss...
-{u'API_PASSWORD': u'7h3dw08ld',
- u'API_USERNAME': u'autopkgr',
+{u'API_PASSWORD': u'',
+ u'API_USERNAME': u'',
  'AUTOPKG_VERSION': u'0.4.2',
  u'CATEGORY': u'Auto Update',
  u'DESCRIPTION': u'Web Browser.',
@@ -9,8 +9,8 @@ Processing Firefox.jss...
  u'GROUP_TEMPLATE': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/SmartGroupTemplate.xml',
  u'ICON': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/Firefox.png',
  u'JSS_REPOS': [{
-    name = CasperShare;
-    password = 7h3dw08ld;
+    name = ;
+    password = ;
 }],
  u'JSS_SUPPRESS_WARNINGS': True,
  u'JSS_URL': u'https://casper-btc-01.cit.ie:8443',
@@ -200,8 +200,8 @@ JSSImporter
 {'Input': {'API_PASSWORD': u'7h3dw08ld',
            'API_USERNAME': u'autopkgr',
            'JSS_REPOS': [{
-    name = CasperShare;
-    password = 7h3dw08ld;
+    name = ;
+    password = ;
 }],
            'JSS_SUPPRESS_WARNINGS': True,
            'JSS_URL': u'https://casper-btc-01.cit.ie:8443',
