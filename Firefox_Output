@@ -197,8 +197,8 @@ PkgCreator: Package already exists at path /Volumes/Leo_Data/Users/leo.osullivan
 PkgCreator: Existing package matches version and identifier, not building.
 {'Output': {'pkg_path': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox/Firefox-36.0.pkg'}}
 JSSImporter
-{'Input': {'API_PASSWORD': u'7h3dw08ld',
-           'API_USERNAME': u'autopkgr',
+{'Input': {'API_PASSWORD': u'',
+           'API_USERNAME': u'',
            'JSS_REPOS': [{
     name = ;
     password = ;
