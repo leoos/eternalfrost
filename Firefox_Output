@@ -1,0 +1,228 @@
+Processing Firefox.jss...
+{u'API_PASSWORD': u'7h3dw08ld',
+ u'API_USERNAME': u'autopkgr',
+ 'AUTOPKG_VERSION': u'0.4.2',
+ u'CATEGORY': u'Auto Update',
+ u'DESCRIPTION': u'Web Browser.',
+ u'GIT_PATH': u'/Library/Developer/CommandLineTools/usr/bin/git',
+ u'GROUP_NAME': u'Firefox-update-smart',
+ u'GROUP_TEMPLATE': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/SmartGroupTemplate.xml',
+ u'ICON': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/Firefox.png',
+ u'JSS_REPOS': [{
+    name = CasperShare;
+    password = 7h3dw08ld;
+}],
+ u'JSS_SUPPRESS_WARNINGS': True,
+ u'JSS_URL': u'https://casper-btc-01.cit.ie:8443',
+ u'JSS_VERIFY_SSL': False,
+ u'LOCALE': u'en_US',
+ u'NAME': u'Firefox',
+ 'PARENT_RECIPES': [u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.sheagcraig.jss-recipes/Firefox.jss.recipe',
+                    u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Mozilla/Firefox.pkg.recipe',
+                    u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Mozilla/Firefox.download.recipe'],
+ u'POLICY_CATEGORY': u'Testing',
+ u'POLICY_TEMPLATE': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/PolicyTemplate.xml',
+ 'RECIPE_CACHE_DIR': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox',
+ 'RECIPE_DIR': '/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides',
+ 'RECIPE_OVERRIDE_DIRS': ['~/Library/AutoPkg/RecipeOverrides'],
+ 'RECIPE_PATH': '/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/Firefox.jss.recipe',
+ u'RECIPE_REPOS': {u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.arubdesu-recipes': {
+    URL = "https://github.com/autopkg/arubdesu-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.dankeller-recipes': {
+    URL = "https://github.com/autopkg/dankeller-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.derak-recipes': {
+    URL = "https://github.com/autopkg/derak-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.gerardkok-recipes': {
+    URL = "https://github.com/autopkg/gerardkok-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.groob-recipes': {
+    URL = "https://github.com/autopkg/groob-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes': {
+    URL = "https://github.com/autopkg/hansen-m-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes': {
+    URL = "https://github.com/autopkg/hjuutilainen-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jaharmi-recipes': {
+    URL = "https://github.com/autopkg/jaharmi-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jazzace-recipes': {
+    URL = "https://github.com/autopkg/jazzace-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes': {
+    URL = "https://github.com/autopkg/jessepeterson-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jleggat-recipes': {
+    URL = "https://github.com/autopkg/jleggat-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes': {
+    URL = "https://github.com/autopkg/joshua-d-miller-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes': {
+    URL = "https://github.com/autopkg/jps3-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.justinrummel-recipes': {
+    URL = "https://github.com/autopkg/justinrummel-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes': {
+    URL = "https://github.com/autopkg/keeleysam-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.lashomb-recipes': {
+    URL = "https://github.com/autopkg/lashomb-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.luisgiraldo-recipes': {
+    URL = "https://github.com/autopkg/luisgiraldo-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes': {
+    URL = "https://github.com/autopkg/n8felton-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.nmcspadden-recipes': {
+    URL = "https://github.com/autopkg/nmcspadden-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes': {
+    URL = "https://github.com/autopkg/recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.rustymyers-recipes': {
+    URL = "https://github.com/autopkg/rustymyers-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.scriptingosx-recipes': {
+    URL = "https://github.com/autopkg/scriptingosx-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.sheagcraig-recipes': {
+    URL = "https://github.com/autopkg/sheagcraig-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.swy-recipes': {
+    URL = "https://github.com/autopkg/swy-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.thenikola-recipes': {
+    URL = "https://github.com/autopkg/thenikola-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.timsutton-recipes': {
+    URL = "https://github.com/autopkg/timsutton-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.sheagcraig.jss-recipes': {
+    URL = "https://github.com/sheagcraig/jss-recipes.git";
+}},
+ u'RECIPE_SEARCH_DIRS': [u'.',
+                         u'~/Library/AutoPkg/Recipes',
+                         u'/Library/AutoPkg/Recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.timsutton-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.nmcspadden-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jleggat-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jaharmi-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.dankeller-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.scriptingosx-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.derak-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.sheagcraig-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.arubdesu-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.gerardkok-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.swy-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.lashomb-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.rustymyers-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.luisgiraldo-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.justinrummel-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.groob-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jazzace-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.thenikola-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.sheagcraig.jss-recipes',
+                         '/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.sheagcraig.jss-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/Mozilla'],
+ u'RELEASE': u'latest',
+ 'verbose': 3}
+MozillaURLProvider
+{'Input': {'locale': u'en_US',
+           'product_name': u'firefox',
+           'release': u'latest'}}
+MozillaURLProvider: Found URL http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/mac/en-US/Firefox%2036.0.dmg
+{'Output': {'url': u'http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/mac/en-US/Firefox%2036.0.dmg'}}
+URLDownloader
+{'Input': {'filename': u'Firefox.dmg',
+           'url': u'http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/latest/mac/en-US/Firefox%2036.0.dmg'}}
+URLDownloader: Item at URL is unchanged.
+URLDownloader: Using existing /Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox/downloads/Firefox.dmg
+{'Output': {'pathname': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox/downloads/Firefox.dmg'}}
+EndOfCheckPhase
+{'Input': {}}
+{'Output': {}}
+AppDmgVersioner
+{'Input': {'dmg_path': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox/downloads/Firefox.dmg'}}
+AppDmgVersioner: Mounted disk image /Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox/downloads/Firefox.dmg
+AppDmgVersioner: BundleID: org.mozilla.firefox
+AppDmgVersioner: Version: 36.0
+{'Output': {'app_name': u'Firefox.app',
+            'bundleid': u'org.mozilla.firefox',
+            'version': u'36.0'}}
+PkgRootCreator
+{'Input': {'pkgdirs': {
+    Applications = 0775;
+},
+           'pkgroot': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox/Firefox'}}
+PkgRootCreator: Created /Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox/Firefox
+PkgRootCreator: Creating Applications
+PkgRootCreator: Created /Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox/Firefox/Applications
+{'Output': {}}
+Copier
+{'Input': {'destination_path': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox/Firefox/Applications/Firefox.app',
+           'source_path': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox/downloads/Firefox.dmg/Firefox.app'}}
+Copier: Mounted disk image /Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox/downloads/Firefox.dmg
+Copier: Copied /private/tmp/dmg.50y83t/Firefox.app to /Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox/Firefox/Applications/Firefox.app
+{'Output': {}}
+PkgCreator
+{'Input': {'pkg_request': {
+    chown =     (
+                {
+            group = admin;
+            path = Applications;
+            user = root;
+        }
+    );
+    id = "org.mozilla.firefox.pkg";
+    options = "purge_ds_store";
+    pkgdir = "/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox";
+}}}
+PkgCreator: Package already exists at path /Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox/Firefox-36.0.pkg.
+PkgCreator: Existing package matches version and identifier, not building.
+{'Output': {'pkg_path': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox/Firefox-36.0.pkg'}}
+JSSImporter
+{'Input': {'API_PASSWORD': u'7h3dw08ld',
+           'API_USERNAME': u'autopkgr',
+           'JSS_REPOS': [{
+    name = CasperShare;
+    password = 7h3dw08ld;
+}],
+           'JSS_SUPPRESS_WARNINGS': True,
+           'JSS_URL': u'https://casper-btc-01.cit.ie:8443',
+           'JSS_VERIFY_SSL': False,
+           'category': u'Auto Update',
+           'groups': (
+        {
+        name = "Firefox-update-smart";
+        smart = 1;
+        "template_path" = "/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/SmartGroupTemplate.xml";
+    }
+),
+           'pkg_path': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.Firefox/Firefox-36.0.pkg',
+           'policy_category': u'Testing',
+           'policy_template': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/PolicyTemplate.xml',
+           'prod_name': u'Firefox',
+           'self_service_description': u'Web Browser.',
+           'self_service_icon': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/Firefox.png',
+           'version': u'36.0'}}
+JSSImporter: No value supplied for JSS_MIGRATED, setting default value of: False
+JSSImporter: Category type: category-'Auto Update' already exists according to JSS, moving on...
+JSSImporter: Category type: policy_category-'Testing' already exists according to JSS, moving on...
+JSSImporter: Pkg-object already exists according to JSS, moving on...
+JSSImporter: Package upload not needed.
