@@ -1,6 +1,6 @@
 Processing AdobeFlashPlayer.jss...
-{u'API_PASSWORD': u'7h3dw08ld',
- u'API_USERNAME': u'autopkgr',
+{u'API_PASSWORD': u'',
+ u'API_USERNAME': u'',
  'AUTOPKG_VERSION': u'0.4.2',
  u'CATEGORY': u'Digital Media',
  u'GIT_PATH': u'/Library/Developer/CommandLineTools/usr/bin/git',
@@ -8,8 +8,8 @@ Processing AdobeFlashPlayer.jss...
  u'GROUP_TEMPLATE': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/AdobeFlashSmartGroupTemplate.xml',
  u'ICON': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/AdobeFlashPlayer.png',
  u'JSS_REPOS': [{
-    name = CasperShare;
-    password = 7h3dw08ld;
+    name = ;
+    password = ;
 }],
  u'JSS_SUPPRESS_WARNINGS': True,
  u'JSS_URL': u'https://casper-btc-01.cit.ie:8443',
@@ -170,8 +170,8 @@ PkgCopier: Mounted disk image /Volumes/Leo_Data/Users/leo.osullivan/Library/Auto
 PkgCopier: Copied /private/tmp/dmg.3rMFsz/Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg to /Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/AdobeFlashPlayer-16.0.0.305.pkg
 {'Output': {'pkg_path': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/AdobeFlashPlayer-16.0.0.305.pkg'}}
 JSSImporter
-{'Input': {'API_PASSWORD': u'7h3dw08ld',
-           'API_USERNAME': u'autopkgr',
+{'Input': {'API_PASSWORD': u'',
+           'API_USERNAME': u'',
            'JSS_REPOS': [{
     name = CasperShare;
     password = 7h3dw08ld;
@@ -213,8 +213,8 @@ JSSImporter: Icon uploaded to JSS.
             'jss_group_added': True,
             'jss_icon_uploaded': True,
             'jss_policy_updated': True}}
-{u'API_PASSWORD': u'7h3dw08ld',
- u'API_USERNAME': u'autopkgr',
+{u'API_PASSWORD': u'',
+ u'API_USERNAME': u'',
  'AUTOPKG_VERSION': u'0.4.2',
  u'CATEGORY': u'Digital Media',
  u'GIT_PATH': u'/Library/Developer/CommandLineTools/usr/bin/git',
@@ -223,8 +223,8 @@ JSSImporter: Icon uploaded to JSS.
  u'ICON': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/AdobeFlashPlayer.png',
  'JSS_MIGRATED': False,
  u'JSS_REPOS': [{
-    name = CasperShare;
-    password = 7h3dw08ld;
+    name = ;
+    password = ;
 }],
  u'JSS_SUPPRESS_WARNINGS': True,
  u'JSS_URL': u'https://casper-btc-01.cit.ie:8443',
