@@ -1,0 +1,403 @@
+Processing AdobeFlashPlayer.jss...
+{u'API_PASSWORD': u'7h3dw08ld',
+ u'API_USERNAME': u'autopkgr',
+ 'AUTOPKG_VERSION': u'0.4.2',
+ u'CATEGORY': u'Digital Media',
+ u'GIT_PATH': u'/Library/Developer/CommandLineTools/usr/bin/git',
+ u'GROUP_NAME': u'AdobeFlashPlayerUpdate-smart',
+ u'GROUP_TEMPLATE': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/AdobeFlashSmartGroupTemplate.xml',
+ u'ICON': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/AdobeFlashPlayer.png',
+ u'JSS_REPOS': [{
+    name = CasperShare;
+    password = 7h3dw08ld;
+}],
+ u'JSS_SUPPRESS_WARNINGS': True,
+ u'JSS_URL': u'https://casper-btc-01.cit.ie:8443',
+ u'JSS_VERIFY_SSL': False,
+ u'NAME': u'AdobeFlashPlayer',
+ 'PARENT_RECIPES': [u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.sheagcraig.jss-recipes/AdobeFlashPlayer.jss.recipe',
+                    u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeFlashPlayer/AdobeFlashPlayer.pkg.recipe',
+                    u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeFlashPlayer/AdobeFlashPlayer.download.recipe'],
+ u'POLICY_CATEGORY': u'Auto Update',
+ u'POLICY_TEMPLATE': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/PolicyTemplate.xml',
+ 'RECIPE_CACHE_DIR': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer',
+ 'RECIPE_DIR': '/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides',
+ 'RECIPE_OVERRIDE_DIRS': ['~/Library/AutoPkg/RecipeOverrides'],
+ 'RECIPE_PATH': '/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/AdobeFlashPlayer.jss.recipe',
+ u'RECIPE_REPOS': {u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.arubdesu-recipes': {
+    URL = "https://github.com/autopkg/arubdesu-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.dankeller-recipes': {
+    URL = "https://github.com/autopkg/dankeller-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.derak-recipes': {
+    URL = "https://github.com/autopkg/derak-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.gerardkok-recipes': {
+    URL = "https://github.com/autopkg/gerardkok-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.groob-recipes': {
+    URL = "https://github.com/autopkg/groob-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes': {
+    URL = "https://github.com/autopkg/hansen-m-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes': {
+    URL = "https://github.com/autopkg/hjuutilainen-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jaharmi-recipes': {
+    URL = "https://github.com/autopkg/jaharmi-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jazzace-recipes': {
+    URL = "https://github.com/autopkg/jazzace-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes': {
+    URL = "https://github.com/autopkg/jessepeterson-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jleggat-recipes': {
+    URL = "https://github.com/autopkg/jleggat-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes': {
+    URL = "https://github.com/autopkg/joshua-d-miller-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes': {
+    URL = "https://github.com/autopkg/jps3-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.justinrummel-recipes': {
+    URL = "https://github.com/autopkg/justinrummel-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes': {
+    URL = "https://github.com/autopkg/keeleysam-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.lashomb-recipes': {
+    URL = "https://github.com/autopkg/lashomb-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.luisgiraldo-recipes': {
+    URL = "https://github.com/autopkg/luisgiraldo-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes': {
+    URL = "https://github.com/autopkg/n8felton-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.nmcspadden-recipes': {
+    URL = "https://github.com/autopkg/nmcspadden-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes': {
+    URL = "https://github.com/autopkg/recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.rustymyers-recipes': {
+    URL = "https://github.com/autopkg/rustymyers-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.scriptingosx-recipes': {
+    URL = "https://github.com/autopkg/scriptingosx-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.sheagcraig-recipes': {
+    URL = "https://github.com/autopkg/sheagcraig-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.swy-recipes': {
+    URL = "https://github.com/autopkg/swy-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.thenikola-recipes': {
+    URL = "https://github.com/autopkg/thenikola-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.timsutton-recipes': {
+    URL = "https://github.com/autopkg/timsutton-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.sheagcraig.jss-recipes': {
+    URL = "https://github.com/sheagcraig/jss-recipes.git";
+}},
+ u'RECIPE_SEARCH_DIRS': [u'.',
+                         u'~/Library/AutoPkg/Recipes',
+                         u'/Library/AutoPkg/Recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.timsutton-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.nmcspadden-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jleggat-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jaharmi-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.dankeller-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.scriptingosx-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.derak-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.sheagcraig-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.arubdesu-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.gerardkok-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.swy-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.lashomb-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.rustymyers-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.luisgiraldo-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.justinrummel-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.groob-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jazzace-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.thenikola-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.sheagcraig.jss-recipes',
+                         '/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.sheagcraig.jss-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeFlashPlayer'],
+ 'verbose': 3}
+AdobeFlashURLProvider
+{'Input': {}}
+AdobeFlashURLProvider: Found URL http://fpdownload.macromedia.com/get/flashplayer/pdc/16.0.0.305/install_flash_player_osx.dmg
+{'Output': {'url': 'http://fpdownload.macromedia.com/get/flashplayer/pdc/16.0.0.305/install_flash_player_osx.dmg'}}
+URLDownloader
+{'Input': {'filename': u'AdobeFlashPlayer.dmg',
+           'url': 'http://fpdownload.macromedia.com/get/flashplayer/pdc/16.0.0.305/install_flash_player_osx.dmg'}}
+URLDownloader: Storing new Last-Modified header: Tue, 03 Feb 2015 15:27:56 GMT
+URLDownloader: Storing new ETag header: "eeb403-50e30b70f3700"
+URLDownloader: Downloaded /Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/downloads/AdobeFlashPlayer.dmg
+{'Output': {'download_changed': True,
+            'etag': '"eeb403-50e30b70f3700"',
+            'last_modified': 'Tue, 03 Feb 2015 15:27:56 GMT',
+            'pathname': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/downloads/AdobeFlashPlayer.dmg'}}
+EndOfCheckPhase
+{'Input': {}}
+{'Output': {}}
+Versioner
+{'Input': {'input_plist_path': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/downloads/AdobeFlashPlayer.dmg/Install Adobe Flash Player.app/Contents/Info.plist',
+           'plist_vUnmount successful for /Volumes/CasperShareCasperShare
+ersion_key': u'CFBundleVersion'}}
+Versioner: Mounted disk image /Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/downloads/AdobeFlashPlayer.dmg
+Versioner: Found version 16.0.0.305 in file /private/tmp/dmg.yzgHmA/Install Adobe Flash Player.app/Contents/Info.plist
+{'Output': {'version': u'16.0.0.305'}}
+PkgCopier
+{'Input': {'pkg_path': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/AdobeFlashPlayer-16.0.0.305.pkg',
+           'source_pkg': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/downloads/AdobeFlashPlayer.dmg/Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg'}}
+PkgCopier: Mounted disk image /Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/downloads/AdobeFlashPlayer.dmg
+PkgCopier: Copied /private/tmp/dmg.3rMFsz/Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg to /Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/AdobeFlashPlayer-16.0.0.305.pkg
+{'Output': {'pkg_path': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/AdobeFlashPlayer-16.0.0.305.pkg'}}
+JSSImporter
+{'Input': {'API_PASSWORD': u'7h3dw08ld',
+           'API_USERNAME': u'autopkgr',
+           'JSS_REPOS': [{
+    name = CasperShare;
+    password = 7h3dw08ld;
+}],
+           'JSS_SUPPRESS_WARNINGS': True,
+           'JSS_URL': u'https://casper-btc-01.cit.ie:8443',
+           'JSS_VERIFY_SSL': False,
+           'category': u'Digital Media',
+           'extension_attributes': (
+        {
+        "ext_attribute_path" = "/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/AdobeFlashPlayerExtensionAttribute.xml";
+        name = AdobeFlashVersion;
+    }
+),
+           'groups': (
+        {
+        name = "AdobeFlashPlayerUpdate-smart";
+        smart = 1;
+        "template_path" = "/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/AdobeFlashSmartGroupTemplate.xml";
+    }
+),
+           'pkg_path': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/AdobeFlashPlayer-16.0.0.305.pkg',
+           'policy_category': u'Auto Update',
+           'policy_template': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/PolicyTemplate.xml',
+           'prod_name': u'AdobeFlashPlayer',
+           'self_service_icon': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/AdobeFlashPlayer.png',
+           'version': u'16.0.0.305'}}
+JSSImporter: No value supplied for self_service_description, setting default value of: 
+JSSImporter: No value supplied for JSS_MIGRATED, setting default value of: False
+JSSImporter: Category type: category-'Digital Media' already exists according to JSS, moving on...
+JSSImporter: Category type: policy_category-'Auto Update' already exists according to JSS, moving on...
+JSSImporter: Pkg-object already exists according to JSS, moving on...
+JSSImporter: Package upload not needed.
+JSSImporter: ComputerExtensionAttribute: AdobeFlashVersion updated.
+JSSImporter: ComputerGroup: AdobeFlashPlayerUpdate-smart created.
+JSSImporter: Policy: Auto Update AdobeFlashPlayer created.
+JSSImporter: Icon uploaded to JSS.
+{'Output': {'jss_extension_attribute_added': True,
+            'jss_group_added': True,
+            'jss_icon_uploaded': True,
+            'jss_policy_updated': True}}
+{u'API_PASSWORD': u'7h3dw08ld',
+ u'API_USERNAME': u'autopkgr',
+ 'AUTOPKG_VERSION': u'0.4.2',
+ u'CATEGORY': u'Digital Media',
+ u'GIT_PATH': u'/Library/Developer/CommandLineTools/usr/bin/git',
+ u'GROUP_NAME': u'AdobeFlashPlayerUpdate-smart',
+ u'GROUP_TEMPLATE': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/AdobeFlashSmartGroupTemplate.xml',
+ u'ICON': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/AdobeFlashPlayer.png',
+ 'JSS_MIGRATED': False,
+ u'JSS_REPOS': [{
+    name = CasperShare;
+    password = 7h3dw08ld;
+}],
+ u'JSS_SUPPRESS_WARNINGS': True,
+ u'JSS_URL': u'https://casper-btc-01.cit.ie:8443',
+ u'JSS_VERIFY_SSL': False,
+ u'NAME': u'AdobeFlashPlayer',
+ 'PARENT_RECIPES': [u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.sheagcraig.jss-recipes/AdobeFlashPlayer.jss.recipe',
+                    u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeFlashPlayer/AdobeFlashPlayer.pkg.recipe',
+                    u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeFlashPlayer/AdobeFlashPlayer.download.recipe'],
+ u'POLICY_CATEGORY': u'Auto Update',
+ u'POLICY_TEMPLATE': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/PolicyTemplate.xml',
+ 'RECIPE_CACHE_DIR': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer',
+ 'RECIPE_DIR': '/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides',
+ 'RECIPE_OVERRIDE_DIRS': ['~/Library/AutoPkg/RecipeOverrides'],
+ 'RECIPE_PATH': '/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/AdobeFlashPlayer.jss.recipe',
+ u'RECIPE_REPOS': {u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.arubdesu-recipes': {
+    URL = "https://github.com/autopkg/arubdesu-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.dankeller-recipes': {
+    URL = "https://github.com/autopkg/dankeller-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.derak-recipes': {
+    URL = "https://github.com/autopkg/derak-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.gerardkok-recipes': {
+    URL = "https://github.com/autopkg/gerardkok-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.groob-recipes': {
+    URL = "https://github.com/autopkg/groob-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes': {
+    URL = "https://github.com/autopkg/hansen-m-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes': {
+    URL = "https://github.com/autopkg/hjuutilainen-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jaharmi-recipes': {
+    URL = "https://github.com/autopkg/jaharmi-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jazzace-recipes': {
+    URL = "https://github.com/autopkg/jazzace-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes': {
+    URL = "https://github.com/autopkg/jessepeterson-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jleggat-recipes': {
+    URL = "https://github.com/autopkg/jleggat-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes': {
+    URL = "https://github.com/autopkg/joshua-d-miller-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes': {
+    URL = "https://github.com/autopkg/jps3-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.justinrummel-recipes': {
+    URL = "https://github.com/autopkg/justinrummel-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes': {
+    URL = "https://github.com/autopkg/keeleysam-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.lashomb-recipes': {
+    URL = "https://github.com/autopkg/lashomb-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.luisgiraldo-recipes': {
+    URL = "https://github.com/autopkg/luisgiraldo-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes': {
+    URL = "https://github.com/autopkg/n8felton-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.nmcspadden-recipes': {
+    URL = "https://github.com/autopkg/nmcspadden-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes': {
+    URL = "https://github.com/autopkg/recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.rustymyers-recipes': {
+    URL = "https://github.com/autopkg/rustymyers-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.scriptingosx-recipes': {
+    URL = "https://github.com/autopkg/scriptingosx-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.sheagcraig-recipes': {
+    URL = "https://github.com/autopkg/sheagcraig-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.swy-recipes': {
+    URL = "https://github.com/autopkg/swy-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.thenikola-recipes': {
+    URL = "https://github.com/autopkg/thenikola-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.timsutton-recipes': {
+    URL = "https://github.com/autopkg/timsutton-recipes.git";
+},
+                   u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.sheagcraig.jss-recipes': {
+    URL = "https://github.com/sheagcraig/jss-recipes.git";
+}},
+ u'RECIPE_SEARCH_DIRS': [u'.',
+                         u'~/Library/AutoPkg/Recipes',
+                         u'/Library/AutoPkg/Recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.keeleysam-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.hjuutilainen-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.timsutton-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.nmcspadden-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.hansen-m-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jleggat-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jaharmi-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jessepeterson-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.dankeller-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.scriptingosx-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.derak-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.sheagcraig-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.arubdesu-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jps3-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.joshua-d-miller-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.n8felton-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.gerardkok-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.swy-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.lashomb-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.rustymyers-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.luisgiraldo-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.justinrummel-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.groob-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.jazzace-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.thenikola-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.sheagcraig.jss-recipes',
+                         '/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.sheagcraig.jss-recipes',
+                         u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeRepos/com.github.autopkg.recipes/AdobeFlashPlayer'],
+ u'category': u'Digital Media',
+ 'download_changed': True,
+ 'etag': '"eeb403-50e30b70f3700"',
+ u'extension_attributes': (
+        {
+        "ext_attribute_path" = "/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/AdobeFlashPlayerExtensionAttribute.xml";
+        name = AdobeFlashVersion;
+    }
+),
+ u'filename': u'AdobeFlashPlayer.dmg',
+ u'groups': (
+        {
+        name = "AdobeFlashPlayerUpdate-smart";
+        smart = 1;
+        "template_path" = "/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/AdobeFlashSmartGroupTemplate.xml";
+    }
+),
+ u'input_plist_path': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/downloads/AdobeFlashPlayer.dmg/Install Adobe Flash Player.app/Contents/Info.plist',
+ 'jss_category_added': False,
+ 'jss_extension_attribute_added': True,
+ 'jss_extension_attribute_updated': False,
+ 'jss_group_added': True,
+ 'jss_group_updated': False,
+ 'jss_icon_uploaded': True,
+ 'jss_package_added': False,
+ 'jss_package_updated': False,
+ 'jss_policy_added': False,
+ 'jss_policy_updated': True,
+ 'jss_repo_updated': False,
+ 'jss_script_added': False,
+ 'jss_script_updated': False,
+ 'last_modified': 'Tue, 03 Feb 2015 15:27:56 GMT',
+ 'pathname': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/downloads/AdobeFlashPlayer.dmg',
+ u'pkg_path': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/AdobeFlashPlayer-16.0.0.305.pkg',
+ u'plist_version_key': u'CFBundleVersion',
+ u'policy_category': u'Auto Update',
+ u'policy_template': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/PolicyTemplate.xml',
+ u'prod_name': u'AdobeFlashPlayer',
+ 'self_service_description': '',
+ u'self_service_icon': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/RecipeOverrides/AdobeFlashPlayer.png',
+ u'source_pkg': u'/Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/downloads/AdobeFlashPlayer.dmg/Install Adobe Flash Player.app/Contents/Resources/Adobe Flash Player.pkg',
+ 'url': 'http://fpdownload.macromedia.com/get/flashplayer/pdc/16.0.0.305/install_flash_player_osx.dmg',
+ 'verbose': 3,
+ 'version': u'16.0.0.305'}
+Receipt written to /Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/receipts/AdobeFlashPlayer-receipt-20150226-143902.plist
+
+The following new items were downloaded:
+    /Volumes/Leo_Data/Users/leo.osullivan/Library/AutoPkg/Cache/local.jss.AdobeFlashPlayer/downloads/AdobeFlashPlayer.dmg
